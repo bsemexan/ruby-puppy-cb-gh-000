@@ -6,10 +6,6 @@ class Dog
     @@all << name
   end
 
-  def self.new
-    @all << name
-  end
-
   def self.clear_all
     @@all.clear
   end
